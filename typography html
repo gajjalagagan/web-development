@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Learning Hub</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <header class="container-fluid text-center text-white bg-danger py-5">
+    <h1 class="display-1">Itachi uchiha</h1>
+    <h5 class="display-5">uchiha clan</h5>
+  </header>
+
+  <!-- Main Section -->
+  <main class="container my-5" >
+    <!-- Text Color and Alignment Section -->
+    <section class="mb-4">
+      <h1 class="text-danger">posession of sharingan clan</h1>
+       </section>
+        <dt>1) Early Life of Itachi Uchiha.</dd>
+        
+        <dd><pre>
+    Itachi Uchiha was one of the most complex and tragic characters in the world of Naruto. 
+    Born into the prestigious Uchiha clan of Konohagakure, Itachi was recognized as a prodigy from a very young age.
+     Unlike most children, he witnessed the horrors of war early in his life, which deeply shaped his personality. 
+     While other kids dreamed of becoming strong ninjas for fame or pride, Itachi desired peace above all else. 
+     His intelligence, maturity, and calm thinking made him stand out among his peers. By the age of seven, he had already mastered skills that many adult shinobi struggled to achieve. 
+    His talent earned him admiration, but it also placed heavy expectations on his shoulders.
+        </pre></dd>
+        <dt>Rise Within the Uchiha Clan</dt>
+        <dd><pre>As a member of the Uchiha clan, Itachi carried the powerful Sharingan, a special eye technique unique to his bloodline.
+             His abilities grew rapidly, and he joined the Anbu Black Ops at a remarkably young age.
+             While serving the Hidden Leaf Village, Itachi found himself caught between his loyalty to his clan and his responsibility to protect the village.
+              Political tension between the Uchiha clan and the village leadership was rising, and a coup seemed inevitable.
+               Itachi was forced into an impossible situation where any decision would lead to suffering.
+
+Despite his love for his family, he ultimately chose to prevent a civil war that could destroy the entire village.
+ This decision defined his life and legacy.
+ The burden of responsibility and secrecy became a weight he carried alone, silently enduring hatred for the sake of peace.</pre></dd>
+      </dl>
+      <dt>True Intentions and Legacy</dt>
+      <dd><pre>As the story unfolds, the truth about Itachi’s actions is revealed. His love for Sasuke was unconditional, even if it meant being hated by him. Itachi believed that Sasuke needed strength and independence, even if it came through anger. His life was filled with loneliness, illness, and emotional pain, yet he never complained.
+
+Itachi’s legacy is one of sacrifice and misunderstood heroism.
+ He showed that true strength is not just about power, but about making painful choices for the greater good. 
+Even after his death, his impact continued to shape the ninja world.
+ Fans remember him not just as a powerful shinobi, but as a symbol of wisdom, love, and sacrifice.</pre></dd>
+    </section>
+</main>
+  <footer class="text-center text-white bg-dark py-3">
+    <p>Created &copy;  by Student at Codingal</p>
+  </footer>
+</body>
+
+</html>
