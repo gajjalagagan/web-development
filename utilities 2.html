@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <style>
+      .card{
+        box-shadow: 0px 0px 10px;
+        transition: 0.5s
+      }
+      .card:hover {
+        cursor: pointer;
+        scale: 1.1;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      }
+      .card img {
+        width: 200px;
+        margin: 20px auto;
+        border-radius: 10px;
+        border: 2px solid gray;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar -->
+    <header>
+      <!-- copy this nav bar -->
+      <nav class="navbar bg-primary py-5 px-3">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white fs-1 fw-bold">Navbar</a>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search For Books"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <!-- card section -->
+    <main>
+      <div class="container-fluid my-5 mx-4">
+        <div class="row">
+          <div class="col-md-4 mt-5">
+            <!-- copy this card  from the bootstrap-->
+            <div class="card" style="width: 18rem">
+              <img
+                src="book 1.webp"
+                class="card-img-top"
+                alt="Book Cover"
+              />
+              <div class="card-body">
+                <h5 class="card-title">can we be strangers again ?  </h5>
+                <p class="card-text">Author: Gaurav</p>
+                <p class="card-text">Price: $25.99</p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mt-5">
+            <div class="card" style="width: 18rem">
+              <img
+                src="book 2.webp"
+                class="card-img-top"
+                alt="Book Cover"
+              />
+              <div class="card-body">
+                <h5 class="card-title">atomic habits</h5>
+                <p class="card-text">Author: Hatif</p>
+                <p class="card-text">Price: $29.99</p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mt-5">
+            <div class="card" style="width: 18rem">
+              <img
+                src="alchemist.webp"
+                class="card-img-top"
+                alt="Book Cover"
+              />
+              <div class="card-body">
+                <h5 class="card-title">alchemist</h5>
+                <p class="card-text">Author: Akila</p>
+                <p class="card-text">Price: $19.99</p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--  spinner  -->
+      <div class="container my-5 d-flex justify-content-center">
+        <div class="spinner-border text-primary" role="status">
+          <span class="visually-hidden">Loading....</span>
+        </div>
+
+        <span style="padding-left: 20px">
+          <h3>Loading Books...</h3>
+        </span>
+      </div>
+
+      <!-- pagination -->
+      <div class="d-flex justify-content-center">
+        <nav aria-label="Page navigation example page1">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="#">Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+          </ul>
+        </nav>
+      </div>
+    </main>
+
+    <footer>
+      <p class="bg-primary p-5 m-0 text-center text-light ">
+        Created by student at Codingal ❤️
+      </p>
+    </footer>
+  </body>
+</html>
