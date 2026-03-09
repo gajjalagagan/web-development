@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <h1>magical arithemetics</h1>
+    <hr>
+    number 1<input type="number" id="num1"><br><br>
+    number 2<input type="number" id ="num2"><br><br>
+    <button onclick="add()">add</button><br><br>
+    <button onclick="subtract()">subtract</button><br><br>
+    <button onclick="multiply()">multiply</button><br><br>
+ <button onclick ="divide">divide</button><br><br>
+    <h2 id="result">see the answer over here</h2>
+    </center>
+    <script>
+        function add(){
+            a=Number(document.getElementById("num1").value)
+             b=Number(document.getElementById("num2").value)
+             result=a+b
+             document.getElementById("result").innerHTML=`${a}+${b}=${result}`
+        }
+           function subtract(){
+            a=Number(document.getElementById("num1").value)
+             b=Number(document.getElementById("num2").value)
+             result=a-b
+             document.getElementById("result").innerHTML=`${a}-${b}=${result}`
+        }
+           function multiply(){
+            a=Number(document.getElementById("num1").value)
+             b=Number(document.getElementById("num2").value)
+             result=a*b
+             document.getElementById("result").innerHTML=`${a}x${b}=${result}`
+        }
+           function divide(){
+            a=Number(document.getElementById("num1").value)
+             b=Number(document.getElementById("num2").value)
+             result=a/b
+             document.getElementById("result").innerHTML=`${a}/${b}=${result}`
+        }
+    </script>
+
+
+</body>
+</html>
