@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even Numbers</title>
+</head>
+<body>
+    <input type="number" id="num1"><br><br>
+    <button onclick="print()">Print all even numbers</button>
+</body>
+
+<script>
+function print(){
+    let a = document.getElementById("num1").value;
+    let b = 0;
+
+    while(b <= a){
+        console.log("even numbers are",b); 
+        b = b + 2;
+    }
+}
+</script>
+</html>
