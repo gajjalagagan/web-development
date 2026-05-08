@@ -1,6 +1,4 @@
-let str = "Hello123";
-let regex = /\d/; // \d means any digit
-console.log(regex.test(str)); // Output: true
+
 
  // Calculator using switch-case in JavaScript
  function calculator(num1, num2, operator) {
@@ -20,11 +18,11 @@ console.log(regex.test(str)); // Output: true
       return "Invalid operator! Please use +, -, *, /, or %.";
   }
 
-  return `The result of ${num1} ${operator} ${num2} is: ${result}`;
+  return `The result of ${num1} ${operator} ${num2} = ${result}`;
 }
 
 // Example usage
 
 
-let output = calculator(number1, number2, operator);
+let output = calculator(num1, num2, operator);
 console.log(output);

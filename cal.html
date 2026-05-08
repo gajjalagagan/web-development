@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <h1>calculator</h1>
+        <hr><br>
+
+        number 1:<input type="number" id="num1"><br><br>
+        number 2:<input type="number" id="num2"><br><br>
+        <button onclick="add()">add</button><br>
+        <button onclick="sub()">subtract</button><br>
+        <button onclick="mul()">multiply</button><br>
+        <button onclick="div()">divide</button><br>
+     </center>
+     <center>
+        <h2 id="result"> see the answer over here:)</h2>
+     </center>
+  </body>
+  <script>
+    function add(){
+    a = parseInt( document.getElementById("num1").value)
+       b = parseInt( document.getElementById("num2").value)
+       sum = a + b
+       document.getElementById("result").innerHTML=`${a}+${b}=${sum}`
+    }
+      function sub(){
+    a = parseInt( document.getElementById("num1").value)
+       b = parseInt( document.getElementById("num2").value)
+       sum = a - b
+       document.getElementById("result").innerHTML=`${a}-${b}=${sum}`
+    }
+      function mul(){
+    a = parseInt( document.getElementById("num1").value)
+       b = parseInt( document.getElementById("num2").value)
+       sum = a * b
+       document.getElementById("result").innerHTML=`${a}x${b}=${sum}`
+    }
+      function div(){
+    a = parseInt( document.getElementById("num1").value)
+       b = parseInt( document.getElementById("num2").value)
+       sum = a/b
+       document.getElementById("result").innerHTML=`${a}÷${b}=${sum}`
+    }
+  </script>
+</html >

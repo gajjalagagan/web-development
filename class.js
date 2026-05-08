@@ -1,60 +1,15 @@
-// class
-  class Animal {
-    // constructor
-    constructor(name) {
-      this.name = name;
+class students{
+    constructor(name,age,course){
+         this.name=name
+         this.age=age
+         this.course=course
     }
-    // methods
-    speak() {
-      console.log(`${this.name} makes a sound.`);
+    details(){
+        console.log()
+        console.log(`name:${this.name}.\n
+                    age:${this.age}.\n
+                    course:${this.course}`)
     }
-  }
-// dog obj
-  const dog = new Animal('Buddy');
-  dog.speak(); // Output: Dog makes a sound.
-
-
-
-
-
-
-// class inheritance
-class Animal {
-    constructor(name) {
-      this.name = name;
-    }
-
-    speak() {
-      console.log(`${this.name} makes a sound.`);
-    }
-  }
-
-  class Dog extends Animal {
-    speak() {
-      console.log(`${this.name} barks.`);
-    }
-  }
-
-  const d1 = new Dog('Buddy');
-  d1.speak(); // Output: Buddy barks.//////
-
-  class Cat extends Animal {
-    speak() {
-      console.log(`${this.name} meows.`);
-    }
-  }
-
-  const myCat = new Cat('Whiskers');
-  myCat.speak(); // Output: Whiskers meows.
-
-
-
-//   static keyword
-
-class MathUtil {
-    static add(a, b) {
-      return a + b;
-    }
-  }
-
-  console.log(MathUtil.add(5, 10)); // Output: 15
+}
+s1 = new students("Rohan",10,"datascience")
+s1.details()

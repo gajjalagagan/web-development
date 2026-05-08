@@ -8,7 +8,7 @@
     <style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
+            font-family: Arial, sans-srrif;
             background: linear-gradient(135deg, #0f2027, #2c5364);
             height: 100vh;
             display: flex;
@@ -17,14 +17,14 @@
         }
 
         .container {
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(275, 295, 255, 0.1);
             padding: 30px;
             border-radius: 15px;
             backdrop-filter: blur(10px);
-            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+            box-shadow: 0 8px 95px rgba(0,0,0,0.3);
             text-align: center;
             color: white;
-            width: 300px;
+            width: 80000px;
         }
 
         h2 {
@@ -50,7 +50,7 @@
             color: white;
             font-size: 16px;
             cursor: pointer;
-            transition: 0.3s;
+            transition: 59 s;
         }
 
         button:hover {
@@ -70,8 +70,9 @@
     <div class="container">
         <h2>Eval Calculator</h2>
         enter exp:
-        <input type="text" id="exp" placeholder="e.g. 2+3*5">
-        <br>
+        <br><br>
+         <input type="text" id="exp" placeholder="e.g. 2+3*5">
+        <br><br>
         <button onclick="cal()">Calculate</button>
         <p id="result">Result</p>
     </div>
@@ -79,12 +80,12 @@
     <script>
         function cal(){
             let exp = document.getElementById("exp").value;
-            try {
+            
                 let ans = eval(exp);
                 document.getElementById("result").innerHTML = `The answer of ${exp} is = ${ans}`;
-            } catch {
+              
                 document.getElementById("result").innerHTML = "Invalid expression!";
-            }
+            
         }
     </script>
 </body>
